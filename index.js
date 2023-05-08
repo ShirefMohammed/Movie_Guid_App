@@ -7,7 +7,7 @@ let result = document.getElementById("result");
 let getMovie = () => {
     const movieName = movieNameRef.value;
     const key = "7f9a3b82";
-    const url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    const url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
     //if input field is empty
     if (movieName.length <= 0) {
